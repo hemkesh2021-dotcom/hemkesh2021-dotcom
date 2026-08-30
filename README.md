@@ -32,8 +32,8 @@ I build intelligent systems across generative AI, edge inference, computer visio
 <a id="focus-current"></a>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/focus-dark.svg" />
-  <img src="./assets/sections/focus-light.svg" width="100%" alt="Section 02 — $ focus --current — active engineering direction" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/focus-dark-v3.svg" />
+  <img src="./assets/headers/focus-light-v3.svg" width="100%" alt="Section 02 — $ focus --current — active engineering direction" />
 </picture>
 
 | Generative AI systems | Edge intelligence | Production-oriented software |
