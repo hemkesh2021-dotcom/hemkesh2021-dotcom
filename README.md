@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg" />
-    <img src="./assets/profile-hero-light.svg" width="100%" alt="Hemkesh — Software Engineer and AI/ML Engineer" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark-v2.svg" />
+    <img src="./assets/profile-hero-light-v2.svg" width="100%" alt="Hemkesh — Software Engineer and AI/ML Engineer" />
   </picture>
 </div>
 
