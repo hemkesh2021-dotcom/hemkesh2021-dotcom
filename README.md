@@ -29,11 +29,11 @@ I build intelligent systems across generative AI, edge inference, computer visio
 
 > **Software, intelligence, and systems—built to work.**
 
-## `$ focus --current`
+<a id="focus-current"></a>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/focus-dark.svg" />
-  <img src="./assets/sections/focus-light.svg" width="100%" alt="Active direction: generative AI, edge AI, and systems" />
+  <img src="./assets/sections/focus-light.svg" width="100%" alt="Section 02 — $ focus --current — active engineering direction" />
 </picture>
 
 | Generative AI systems | Edge intelligence | Production-oriented software |
