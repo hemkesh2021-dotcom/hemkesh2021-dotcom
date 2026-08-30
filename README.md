@@ -11,11 +11,11 @@
   <a href="https://www.linkedin.com/in/hemkesh-r-461532322/"><img src="./assets/linkedin-v2.svg" height="44" alt="LinkedIn" /></a>
 </p>
 
-## `$ whoami`
+<a id="whoami"></a>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/whoami-dark.svg" />
-  <img src="./assets/sections/whoami-light.svg" width="100%" alt="Identity channel verified and online" />
+  <img src="./assets/sections/whoami-light.svg" width="100%" alt="Section 01 — $ whoami — identity profile" />
 </picture>
 
 I am **Hemkesh**, a final-year B.Tech Computer Science Engineering student at **Dayananda Sagar University**, graduating in **2027**.
