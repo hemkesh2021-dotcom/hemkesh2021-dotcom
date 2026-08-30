@@ -186,11 +186,11 @@ AEGIS uses a Spring Boot Java 21 orchestrator to run a seven-stage pipeline:
   <sub>Repository-hosted animated SVGs · refreshed daily by GitHub Actions</sub>
 </p>
 
-## `$ interests`
+<a id="interests"></a>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/interests-dark.svg" />
-  <img src="./assets/sections/interests-light.svg" width="100%" alt="Research interests in local-first and edge AI" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/interests-dark-v3.svg" />
+  <img src="./assets/headers/interests-light-v3.svg" width="100%" alt="Section 06 — $ interests — technical interests and trajectory" />
 </picture>
 
 `Local-first AI` · `Edge AI` · `Intelligent systems` · `Systems engineering` · `Computer vision` · `Robotics` · `Open-source engineering` · `Cloud-native development`
