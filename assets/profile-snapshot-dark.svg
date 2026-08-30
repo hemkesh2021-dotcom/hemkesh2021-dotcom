@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="200" viewBox="0 0 340 200" role="img" aria-labelledby="title-dark desc-dark">
+  <title id="title-dark">Hemkesh's public GitHub portfolio snapshot</title>
+  <desc id="desc-dark">8 public repositories, 7 portfolio repositories, 4 total stars, and 3 featured systems.</desc>
+  <rect x="1" y="1" width="338" height="198" rx="12" fill="#0D1117" stroke="#2E343B"/>
+  <text x="18" y="30" fill="#E6EDF3" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">Public Portfolio Snapshot</text>
+  <circle cx="309" cy="24" r="4" fill="#00B4D8"/>
+  <circle cx="321" cy="24" r="4" fill="#FF6B00"/>
+  <g font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif">
+    
+        <g transform="translate(18 58)">
+          <rect width="148" height="49" rx="10" fill="#161B22"/>
+          <rect width="3" height="49" rx="1.5" fill="#00B4D8"/>
+          <text x="14" y="19" fill="#8B949E" font-size="9" font-weight="600" letter-spacing=".7">PUBLIC REPOS</text>
+          <text x="14" y="40" fill="#E6EDF3" font-size="19" font-weight="700">8</text>
+        </g>
+        <g transform="translate(174 58)">
+          <rect width="148" height="49" rx="10" fill="#161B22"/>
+          <rect width="3" height="49" rx="1.5" fill="#FF6B00"/>
+          <text x="14" y="19" fill="#8B949E" font-size="9" font-weight="600" letter-spacing=".7">PORTFOLIO REPOS</text>
+          <text x="14" y="40" fill="#E6EDF3" font-size="19" font-weight="700">7</text>
+        </g>
+        <g transform="translate(18 119)">
+          <rect width="148" height="49" rx="10" fill="#161B22"/>
+          <rect width="3" height="49" rx="1.5" fill="#00B4D8"/>
+          <text x="14" y="19" fill="#8B949E" font-size="9" font-weight="600" letter-spacing=".7">TOTAL STARS</text>
+          <text x="14" y="40" fill="#E6EDF3" font-size="19" font-weight="700">4</text>
+        </g>
+        <g transform="translate(174 119)">
+          <rect width="148" height="49" rx="10" fill="#161B22"/>
+          <rect width="3" height="49" rx="1.5" fill="#FF6B00"/>
+          <text x="14" y="19" fill="#8B949E" font-size="9" font-weight="600" letter-spacing=".7">FEATURED SYSTEMS</text>
+          <text x="14" y="40" fill="#E6EDF3" font-size="19" font-weight="700">3</text>
+        </g>
+    <text x="170" y="188" text-anchor="middle" fill="#8B949E" font-size="8.5">Live public data · refreshed by GitHub Actions</text>
+  </g>
+</svg>
