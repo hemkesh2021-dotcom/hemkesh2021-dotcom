@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="96" viewBox="0 0 1200 96" role="img" aria-labelledby="title-light-stack-v3">
+<title id="title-light-stack-v3">SECTION 03 // TOOLCHAIN — $ stack --matrix</title>
+<defs><linearGradient id="scan-light-stack-v3" x1="0" x2="1"><stop stop-color="#008DA6" stop-opacity="0"/><stop offset=".5" stop-color="#008DA6" stop-opacity=".16"/><stop offset="1" stop-color="#008DA6" stop-opacity="0"/></linearGradient><filter id="shadow-light-stack-v3" x="-5%" y="-30%" width="110%" height="170%"><feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#0B2545" flood-opacity=".13"/></filter></defs>
+<rect x="1" y="2" width="1198" height="92" rx="20" fill="#FCFBF8" stroke="#D5DEE2" filter="url(#shadow-light-stack-v3)"/>
+<rect x="12" y="13" width="6" height="70" rx="3" fill="#008DA6"><animate attributeName="opacity" values=".45;1;.45" dur="2.4s" begin="0.30000000000000004s" repeatCount="indefinite"/></rect>
+<rect x="24" y="13" width="1152" height="70" rx="14" fill="#F1F3F2" opacity=".72"/>
+<rect x="-280" y="13" width="280" height="70" rx="14" fill="url(#scan-light-stack-v3)"><animate attributeName="x" from="-280" to="1200" dur="8.4s" repeatCount="indefinite"/></rect>
+<text x="38" y="31" fill="#65717C" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" font-weight="700" letter-spacing="1.5">SECTION 03 // TOOLCHAIN</text>
+<text x="38" y="62" fill="#15202A" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="29" font-weight="800" letter-spacing=".2">$ stack --matrix</text>
+<rect x="300" y="40" width="3.5" height="25" rx="1.5" fill="#C75B16"><animate attributeName="opacity" values="1;1;.08;.08;1" keyTimes="0;.42;.5;.92;1" dur="1.15s" repeatCount="indefinite"/></rect>
+<text x="39" y="80" fill="#65717C" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" letter-spacing=".95">LANGUAGES // MODELS // SERVICES // INFRASTRUCTURE // DATA</text>
+<rect x="874" y="25" width="286" height="31" rx="15.5" fill="#FCFBF8" stroke="#008DA6" stroke-opacity=".34"/>
+<circle cx="895" cy="40.5" r="4.2" fill="#008DA6"><animate attributeName="r" values="3;5.6;3" dur="2s" begin=".2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".48;1;.48" dur="2s" begin=".2s" repeatCount="indefinite"/></circle>
+<text x="912" y="44.5" fill="#008DA6" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" font-weight="700" letter-spacing=".75">RUNTIME // READY</text>
+<path d="M38 87H1161" stroke="#D5DEE2"/><path d="M38 87H1161" stroke="#008DA6" stroke-width="1.4" stroke-dasharray="4 22" opacity=".55"><animate attributeName="stroke-dashoffset" from="0" to="-208" dur="10.5s" repeatCount="indefinite"/></path>
+<circle r="3.4" fill="#C75B16"><animateMotion path="M40 87H1158" dur="7.6s" begin=".4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".25;1;.25" dur="1.6s" repeatCount="indefinite"/></circle>
+<rect x="874" y="64" width="286" height="2" rx="1" fill="#D5DEE2"/><rect x="874" y="64" width="0" height="2" rx="1" fill="#C75B16"><animate attributeName="width" values="0;286;286;0" keyTimes="0;.3;.8;1" dur="9s" repeatCount="indefinite"/></rect>
+</svg>

@@ -40,11 +40,11 @@ I build intelligent systems across generative AI, edge inference, computer visio
 |---|---|---|
 | Agent workflows, hybrid retrieval, grounded generation, evaluation, and human approval paths | TensorRT computer vision, local multimodal models, constrained-memory deployment, and real-time inference | Java and Python services, full-stack interfaces, PostgreSQL, containers, security, and observability |
 
-## `$ stack --matrix`
+<a id="stack-matrix"></a>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/stack-dark.svg" />
-  <img src="./assets/sections/stack-light.svg" width="100%" alt="Toolchain matrix loaded and ready" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/stack-dark-v3.svg" />
+  <img src="./assets/headers/stack-light-v3.svg" width="100%" alt="Section 03 — $ stack --matrix — engineering toolchain" />
 </picture>
 
 | Area | Technologies |
