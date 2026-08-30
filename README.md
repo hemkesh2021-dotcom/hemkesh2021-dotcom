@@ -1,203 +1,128 @@
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark-v2.svg" />
-    <img src="./assets/profile-hero-light-v2.svg" width="100%" alt="Hemkesh — Software Engineer and AI/ML Engineer" />
-  </picture>
+<picture>
+  <source media="(max-width: 680px)" srcset="./assets/beige-v5/hero-mobile.svg" />
+  <img src="./assets/beige-v5/hero-desktop.svg" width="100%" alt="Hemkesh — Software Engineer and AI/ML Engineer — available for full-time roles" />
+</picture>
 </div>
 
+<picture>
+  <source media="(max-width: 680px)" srcset="./assets/beige-v5/identity-mobile.svg" />
+  <img src="./assets/beige-v5/identity-desktop.svg" width="100%" alt="Hemkesh professional identity — B.Tech CSE at Dayananda Sagar University, graduating 2027" />
+</picture>
+
 <p align="center">
-  <a href="https://github.com/hemkesh2021-dotcom?tab=repositories"><img src="./assets/explore-projects-v2.svg" height="44" alt="Explore projects" /></a>
+  <a href="https://github.com/hemkesh2021-dotcom?tab=repositories"><img src="./assets/beige-v5/button-projects.svg" height="56" alt="Explore projects" /></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/hemkesh-r-461532322/"><img src="./assets/linkedin-v2.svg" height="44" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/hemkesh-r-461532322/"><img src="./assets/beige-v5/button-linkedin.svg" height="56" alt="LinkedIn" /></a>
 </p>
 
-<a id="whoami"></a>
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/whoami-dark-v3.svg" />
-  <img src="./assets/headers/whoami-light-v3.svg" width="100%" alt="Section 01 — $ whoami — identity profile" />
+  <source media="(max-width: 680px)" srcset="./assets/beige-v5/build-mobile.svg" />
+  <img src="./assets/beige-v5/build-desktop.svg" width="100%" alt="Section 01 — What I build: generative AI, edge intelligence, and production-oriented software" />
 </picture>
 
-I am **Hemkesh**, a final-year B.Tech Computer Science Engineering student at **Dayananda Sagar University**, graduating in **2027**.
-
-I build intelligent systems across generative AI, edge inference, computer vision, full-stack services, and systems engineering. My work emphasizes grounded outputs, local-first execution, measurable evaluation, security, and software that remains useful outside a demo environment.
-
-- **Primary direction:** Generative AI, LLM applications, RAG, and agentic systems
-- **Engineering depth:** Edge AI, computer vision, backend services, data systems, and deployment
-- **Current experience:** Freelance AI/ML Model Evaluator at Deccan AI — Apr 2026 to present
-- **Current status:** Student · open to full-time Software Engineering and AI/ML roles
-
-> **Software, intelligence, and systems—built to work.**
-
-<a id="focus-current"></a>
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/focus-dark-v3.svg" />
-  <img src="./assets/headers/focus-light-v3.svg" width="100%" alt="Section 02 — $ focus --current — active engineering direction" />
+  <source media="(max-width: 680px)" srcset="./assets/beige-v5/stack-mobile.svg" />
+  <img src="./assets/beige-v5/stack-desktop.svg" width="100%" alt="Section 02 — Technology matrix: Python, Java, C, TypeScript, AI, web, data, and infrastructure" />
 </picture>
 
-| Generative AI systems | Edge intelligence | Production-oriented software |
-|---|---|---|
-| Agent workflows, hybrid retrieval, grounded generation, evaluation, and human approval paths | TensorRT computer vision, local multimodal models, constrained-memory deployment, and real-time inference | Java and Python services, full-stack interfaces, PostgreSQL, containers, security, and observability |
-
-<a id="stack-matrix"></a>
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/stack-dark-v3.svg" />
-  <img src="./assets/headers/stack-light-v3.svg" width="100%" alt="Section 03 — $ stack --matrix — engineering toolchain" />
+  <source media="(max-width: 680px)" srcset="./assets/beige-v5/path-mobile.svg" />
+  <img src="./assets/beige-v5/path-desktop.svg" width="100%" alt="Section 03 — Current path: AI/ML Model Evaluator and B.Tech Computer Science Engineering student" />
 </picture>
-
-| Area | Technologies |
-|---|---|
-| Languages | `Python` · `Java` · `C` · `TypeScript` |
-| AI and ML | `LLMs` · `RAG` · `Computer Vision` · `Machine Learning` · `TensorRT` |
-| Web and services | `Next.js` · `React` · `FastAPI` · `Spring Boot` · `Flask` |
-| Infrastructure and data | `Docker` · `Cloud` · `PostgreSQL` · `pgvector` · `NVIDIA Jetson` |
 
 <a id="systems-featured"></a>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/systems-dark-v3.svg" />
-  <img src="./assets/headers/systems-light-v3.svg" width="100%" alt="Section 04 — $ systems --featured — featured engineering systems" />
+  <source media="(max-width: 680px)" srcset="./assets/beige-v5/systems-mobile.svg" />
+  <img src="./assets/beige-v5/systems-desktop.svg" width="100%" alt="Section 04 — Featured systems: AEGIS, SENTINEL, and ARIA" />
 </picture>
 
 <a id="aegis"></a>
 
 <a href="https://github.com/hemkesh2021-dotcom/AEGIS-complaint-resolution">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/projects/aegis-dark-v3.svg" />
-    <img src="./assets/headers/projects/aegis-light-v3.svg" width="100%" alt="AEGIS completed — agentic RAG for banking complaint resolution" />
-  </picture>
+<picture>
+  <source media="(max-width: 680px)" srcset="./assets/beige-v5/aegis-mobile.svg" />
+  <img src="./assets/beige-v5/aegis-desktop.svg" width="100%" alt="AEGIS — completed and verified agentic banking complaint resolution system" />
+</picture>
 </a>
 
-**Agentic banking complaint resolution that verifies AI-generated responses before they reach customers.**
-
-AEGIS uses a Spring Boot Java 21 orchestrator to run a seven-stage pipeline:
-
-`ingest → classify → compliance → retrieve → draft → verify → audit`
-
-- DistilBERT complaint classification with local inference and deterministic fallback
-- Hybrid pgvector semantic retrieval plus BM25 keyword retrieval
-- NVIDIA NIM drafting with a deterministic template-engine fallback
-- Grounding gates that block invented figures, contacts, and template debris
-- PII redaction, OIDC roles, maker-checker approval, rate limits, and append-only audit history
-- Human edits become labelled feedback through an exportable learning loop
-
-**Verified engineering signals:** `77.3% temporal-holdout accuracy` · `p95 774 ms pipeline latency` · `~63 requests/s measured`
-
-`Java 21` · `Spring Boot` · `Python` · `DistilBERT` · `FastAPI` · `RAG` · `pgvector` · `NVIDIA NIM` · `Docker`
-
----
+<picture>
+  <source media="(max-width: 680px)" srcset="./assets/beige-v5/aegis-details-mobile.svg" />
+  <img src="./assets/beige-v5/aegis-details-desktop.svg" width="100%" alt="AEGIS engineering details — classification, retrieval, drafting, grounding, security, audit, measured signals, and technology stack" />
+</picture>
 
 <a id="sentinel"></a>
 
 <a href="https://github.com/hemkesh2021-dotcom/Sentinel_Surveillance">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/projects/sentinel-dark-v3.svg" />
-    <img src="./assets/headers/projects/sentinel-light-v3.svg" width="100%" alt="SENTINEL prototype complete with improvements ongoing" />
-  </picture>
+<picture>
+  <source media="(max-width: 680px)" srcset="./assets/beige-v5/sentinel-mobile.svg" />
+  <img src="./assets/beige-v5/sentinel-desktop.svg" width="100%" alt="SENTINEL — completed edge-AI surveillance prototype in active improvement" />
+</picture>
 </a>
 
-**Self-hosted edge-AI surveillance for NVIDIA Jetson: detect, identify, understand, and alert locally in real time.**
-
-`RTSP camera → detection and tracking → face recognition → local VLM analysis → dashboard and alerts`
-
-<a id="sentinel-completed-prototype"></a>
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/sentinel/prototype-dark-v3.svg" />
-  <img src="./assets/headers/sentinel/prototype-light-v3.svg" width="100%" alt="SENTINEL stage 01 — completed prototype" />
+  <source media="(max-width: 680px)" srcset="./assets/beige-v5/sentinel-overview-details-mobile.svg" />
+  <img src="./assets/beige-v5/sentinel-overview-details-desktop.svg" width="100%" alt="SENTINEL overview — local edge-AI pipeline, completed prototype, active improvement status, and technology stack" />
 </picture>
 
-- YOLOv8n TensorRT person detection with ByteTrack tracking
-- DeepFace, Facenet512, and YuNet face recognition with session Re-ID
-- LFM2-VL 1.6B scene understanding through GPU-accelerated llama.cpp
-- Fully local inference with no cloud dependency for vision or scene analysis
-- Fire/smoke, threat, stranger, restricted-hours, entry/exit, and alert workflows
-- Authenticated Flask dashboard with live stream, event log, and camera-aware AI chat
-- Telegram alert snapshots with priority-aware cooldowns
-- Tested on an NVIDIA Jetson Orin Nano Super with 8 GB unified memory and an ONVIF/RTSP camera
-
-<a id="sentinel-deployment-engineering"></a>
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/sentinel/deployment-dark-v3.svg" />
-  <img src="./assets/headers/sentinel/deployment-light-v3.svg" width="100%" alt="SENTINEL stage 02 — deployment engineering" />
+  <source media="(max-width: 680px)" srcset="./assets/beige-v5/sentinel-prototype-mobile.svg" />
+  <img src="./assets/beige-v5/sentinel-prototype-desktop.svg" width="100%" alt="SENTINEL stage 01 — completed prototype" />
 </picture>
 
-- Uses `GGML_CUDA_ENABLE_UNIFIED_MEMORY=1` so the VLM can run on Jetson's shared CPU/GPU memory pool
-- Starts headless, launches the VLM first, and then starts the surveillance engine and dashboard
-- Separates `llama-server`, the Python inference engine, and the Flask dashboard into three processes
-- Exchanges frames and state atomically to prevent torn dashboard reads
-
-<a id="sentinel-active-improvement"></a>
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/sentinel/improvement-dark-v3.svg" />
-  <img src="./assets/headers/sentinel/improvement-light-v3.svg" width="100%" alt="SENTINEL stage 03 — active improvement process" />
+  <source media="(max-width: 680px)" srcset="./assets/beige-v5/sentinel-prototype-details-mobile.svg" />
+  <img src="./assets/beige-v5/sentinel-prototype-details-desktop.svg" width="100%" alt="SENTINEL completed prototype details — detection, tracking, face recognition, local VLM analysis, dashboard, alerts, and Jetson test hardware" />
 </picture>
 
-- Reduce and enforce memory usage below the project cap
-- Improve runtime reliability, camera reconnection, and long-running observability
-- Harden authentication, transport security, secrets handling, and deployment defaults
-- Expand PTZ patrol, tracking, and persistent home-position behavior
-- Upgrade the responsive web experience and prepare Android/iOS client support
+<picture>
+  <source media="(max-width: 680px)" srcset="./assets/beige-v5/sentinel-deployment-mobile.svg" />
+  <img src="./assets/beige-v5/sentinel-deployment-desktop.svg" width="100%" alt="SENTINEL stage 02 — deployment engineering" />
+</picture>
 
-`Python` · `YOLOv8n TensorRT` · `ByteTrack` · `DeepFace` · `LFM2-VL 1.6B` · `llama.cpp` · `Flask` · `NVIDIA Jetson`
+<picture>
+  <source media="(max-width: 680px)" srcset="./assets/beige-v5/sentinel-deployment-details-mobile.svg" />
+  <img src="./assets/beige-v5/sentinel-deployment-details-desktop.svg" width="100%" alt="SENTINEL deployment engineering — unified-memory operation, startup order, process isolation, and atomic state exchange" />
+</picture>
 
----
+<picture>
+  <source media="(max-width: 680px)" srcset="./assets/beige-v5/sentinel-improvement-mobile.svg" />
+  <img src="./assets/beige-v5/sentinel-improvement-desktop.svg" width="100%" alt="SENTINEL stage 03 — active improvement process" />
+</picture>
+
+<picture>
+  <source media="(max-width: 680px)" srcset="./assets/beige-v5/sentinel-improvement-details-mobile.svg" />
+  <img src="./assets/beige-v5/sentinel-improvement-details-desktop.svg" width="100%" alt="SENTINEL active improvement work — memory, reliability, security, PTZ behavior, and responsive clients" />
+</picture>
 
 <a id="aria"></a>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/projects/aria-dark-v3.svg" />
-  <img src="./assets/headers/projects/aria-light-v3.svg" width="100%" alt="ARIA is an active local-first multimodal AI build" />
+  <source media="(max-width: 680px)" srcset="./assets/beige-v5/aria-mobile.svg" />
+  <img src="./assets/beige-v5/aria-desktop.svg" width="100%" alt="ARIA — active local-first multimodal AI assistant build" />
 </picture>
 
-**Local-first multimodal AI assistant combining private intelligence, automation, and edge surveillance.**
-
-- Private-by-default orchestration with cloud escalation only for heavier workloads
-- Persistent cross-device memory and tool-aware assistant workflows
-- One local intelligence layer spanning assistant, automation, and surveillance contexts
-- Designed for Jetson-class edge hardware and full desktop environments
-
-`Python` · `FastAPI` · `LLMs + RAG` · `NVIDIA Jetson` · `NVIDIA NIM` · `React / Next.js` · `Docker` · `PostgreSQL / pgvector`
+<picture>
+  <source media="(max-width: 680px)" srcset="./assets/beige-v5/aria-details-mobile.svg" />
+  <img src="./assets/beige-v5/aria-details-desktop.svg" width="100%" alt="ARIA active build details — private orchestration, persistent memory, unified local intelligence, edge deployment, and current stack" />
+</picture>
 
 <a id="github-signal"></a>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/github-dark-v3.svg" />
-  <img src="./assets/headers/github-light-v3.svg" width="100%" alt="Section 05 — $ github --signal — public repository metrics" />
+  <source media="(max-width: 680px)" srcset="./assets/beige-v5/signal-mobile.svg" />
+  <img src="./assets/beige-v5/signal-desktop.svg" width="100%" alt="Section 05 — GitHub signal: public repositories, stars, featured systems, and languages" />
 </picture>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-snapshot-dark.svg" />
-    <img height="200" src="./assets/profile-snapshot-light.svg" alt="Hemkesh's public GitHub portfolio snapshot" />
-  </picture>
-  &nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-languages-dark.svg" />
-    <img height="200" src="./assets/profile-languages-light.svg" alt="Top languages across Hemkesh's public repositories" />
-  </picture>
-</p>
-
-<p align="center">
-  <sub>Repository-hosted animated SVGs · refreshed daily by GitHub Actions</sub>
-</p>
 
 <a id="interests"></a>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/interests-dark-v3.svg" />
-  <img src="./assets/headers/interests-light-v3.svg" width="100%" alt="Section 06 — $ interests — technical interests and trajectory" />
+  <source media="(max-width: 680px)" srcset="./assets/beige-v5/interests-mobile.svg" />
+  <img src="./assets/beige-v5/interests-desktop.svg" width="100%" alt="Section 06 — Interests: local-first AI, edge AI, systems, computer vision, robotics, open source, and cloud-native development" />
 </picture>
 
-`Local-first AI` · `Edge AI` · `Intelligent systems` · `Systems engineering` · `Computer vision` · `Robotics` · `Open-source engineering` · `Cloud-native development`
-
----
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/animated-footer-dark.svg" />
-  <img src="./assets/animated-footer-light.svg" width="100%" alt="Build status: curious, shipping, and learning" />
+  <source media="(max-width: 680px)" srcset="./assets/beige-v5/footer-mobile.svg" />
+  <img src="./assets/beige-v5/footer-desktop.svg" width="100%" alt="Build status: curious, shipping, and learning" />
 </picture>
