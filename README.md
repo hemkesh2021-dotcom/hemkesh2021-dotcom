@@ -54,19 +54,19 @@ I build intelligent systems across generative AI, edge inference, computer visio
 | Web and services | `Next.js` · `React` · `FastAPI` · `Spring Boot` · `Flask` |
 | Infrastructure and data | `Docker` · `Cloud` · `PostgreSQL` · `pgvector` · `NVIDIA Jetson` |
 
-## `$ systems --featured`
+<a id="systems-featured"></a>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/systems-dark.svg" />
-  <img src="./assets/sections/systems-light.svg" width="100%" alt="Three featured systems active" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/systems-dark-v3.svg" />
+  <img src="./assets/headers/systems-light-v3.svg" width="100%" alt="Section 04 — $ systems --featured — featured engineering systems" />
 </picture>
 
-### 01 — [AEGIS](https://github.com/hemkesh2021-dotcom/AEGIS-complaint-resolution)
+<a id="aegis"></a>
 
 <a href="https://github.com/hemkesh2021-dotcom/AEGIS-complaint-resolution">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/aegis-dark.svg" />
-    <img src="./assets/projects/aegis-light.svg" width="100%" alt="AEGIS completed — agentic RAG for banking complaint resolution" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/projects/aegis-dark-v3.svg" />
+    <img src="./assets/headers/projects/aegis-light-v3.svg" width="100%" alt="AEGIS completed — agentic RAG for banking complaint resolution" />
   </picture>
 </a>
 
@@ -89,12 +89,12 @@ AEGIS uses a Spring Boot Java 21 orchestrator to run a seven-stage pipeline:
 
 ---
 
-### 02 — [SENTINEL](https://github.com/hemkesh2021-dotcom/Sentinel_Surveillance)
+<a id="sentinel"></a>
 
 <a href="https://github.com/hemkesh2021-dotcom/Sentinel_Surveillance">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/sentinel-dark.svg" />
-    <img src="./assets/projects/sentinel-light.svg" width="100%" alt="SENTINEL prototype complete with improvements ongoing" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/projects/sentinel-dark-v3.svg" />
+    <img src="./assets/headers/projects/sentinel-light-v3.svg" width="100%" alt="SENTINEL prototype complete with improvements ongoing" />
   </picture>
 </a>
 
@@ -102,11 +102,11 @@ AEGIS uses a Spring Boot Java 21 orchestrator to run a seven-stage pipeline:
 
 `RTSP camera → detection and tracking → face recognition → local VLM analysis → dashboard and alerts`
 
-#### Completed prototype
+<a id="sentinel-completed-prototype"></a>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/sentinel-prototype-dark.svg" />
-  <img src="./assets/sections/sentinel-prototype-light.svg" width="100%" alt="SENTINEL prototype stage complete" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/sentinel/prototype-dark-v3.svg" />
+  <img src="./assets/headers/sentinel/prototype-light-v3.svg" width="100%" alt="SENTINEL stage 01 — completed prototype" />
 </picture>
 
 - YOLOv8n TensorRT person detection with ByteTrack tracking
@@ -118,11 +118,11 @@ AEGIS uses a Spring Boot Java 21 orchestrator to run a seven-stage pipeline:
 - Telegram alert snapshots with priority-aware cooldowns
 - Tested on an NVIDIA Jetson Orin Nano Super with 8 GB unified memory and an ONVIF/RTSP camera
 
-#### Deployment engineering
+<a id="sentinel-deployment-engineering"></a>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/sentinel-deployment-dark.svg" />
-  <img src="./assets/sections/sentinel-deployment-light.svg" width="100%" alt="SENTINEL deployment engineering stage" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/sentinel/deployment-dark-v3.svg" />
+  <img src="./assets/headers/sentinel/deployment-light-v3.svg" width="100%" alt="SENTINEL stage 02 — deployment engineering" />
 </picture>
 
 - Uses `GGML_CUDA_ENABLE_UNIFIED_MEMORY=1` so the VLM can run on Jetson's shared CPU/GPU memory pool
@@ -130,11 +130,11 @@ AEGIS uses a Spring Boot Java 21 orchestrator to run a seven-stage pipeline:
 - Separates `llama-server`, the Python inference engine, and the Flask dashboard into three processes
 - Exchanges frames and state atomically to prevent torn dashboard reads
 
-#### Active improvement process
+<a id="sentinel-active-improvement"></a>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/sentinel-improvement-dark.svg" />
-  <img src="./assets/sections/sentinel-improvement-light.svg" width="100%" alt="SENTINEL improvement process active" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/sentinel/improvement-dark-v3.svg" />
+  <img src="./assets/headers/sentinel/improvement-light-v3.svg" width="100%" alt="SENTINEL stage 03 — active improvement process" />
 </picture>
 
 - Reduce and enforce memory usage below the project cap
@@ -147,11 +147,11 @@ AEGIS uses a Spring Boot Java 21 orchestrator to run a seven-stage pipeline:
 
 ---
 
-### 03 — ARIA
+<a id="aria"></a>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/aria-dark.svg" />
-  <img src="./assets/projects/aria-light.svg" width="100%" alt="ARIA is an active local-first multimodal AI build" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/projects/aria-dark-v3.svg" />
+  <img src="./assets/headers/projects/aria-light-v3.svg" width="100%" alt="ARIA is an active local-first multimodal AI build" />
 </picture>
 
 **Local-first multimodal AI assistant combining private intelligence, automation, and edge surveillance.**
