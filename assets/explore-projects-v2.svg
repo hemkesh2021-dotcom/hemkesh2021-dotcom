@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="198" height="48" viewBox="0 0 198 48" role="img" aria-labelledby="t"><title id="t">Explore projects</title>
+<defs><linearGradient id="sh"><stop stop-color="#FFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFF" stop-opacity=".5"/><stop offset="1" stop-color="#FFF" stop-opacity="0"/></linearGradient><clipPath id="c"><rect x="1" y="1" width="196" height="46" rx="13"/></clipPath></defs>
+<rect x="1" y="1" width="196" height="46" rx="13" fill="#EFE8DB" stroke="#CFC3B2" stroke-dasharray="4 14"><animate attributeName="stroke-dashoffset" from="0" to="-108" dur="8s" repeatCount="indefinite"/></rect>
+<g clip-path="url(#c)"><rect x="-70" y="2" width="70" height="44" fill="url(#sh)" transform="skewX(-14)"><animate attributeName="x" from="-70" to="238" dur="4.8s" repeatCount="indefinite"/></rect></g><circle cx="23" cy="24" r="4" fill="#008AA3"><animate attributeName="r" values="3;5;3" dur="1.8s" repeatCount="indefinite"/></circle>
+<text x="35" y="29" fill="#12161B" font-family="Arial" font-size="13.5" font-weight="700">Explore projects</text>
+<path d="M173 20l5 4-5 4" fill="none" stroke="#12161B" stroke-width="1.8" stroke-linecap="round"><animateTransform attributeName="transform" type="translate" values="0 0;2 0;0 0" dur="1.4s" repeatCount="indefinite"/></path>
+</svg>

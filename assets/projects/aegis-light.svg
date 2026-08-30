@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="70" viewBox="0 0 1200 70" role="img" aria-labelledby="t-aegis-light">
+<title id="t-aegis-light">AEGIS — COMPLETED</title>
+<rect x="1" y="1" width="1198" height="68" rx="15" fill="#FFFFFF" stroke="#DDE3E8" stroke-dasharray="5 18"><animate attributeName="stroke-dashoffset" from="0" to="-184" dur="16s" repeatCount="indefinite"/></rect>
+<rect x="12" y="12" width="1176" height="46" rx="11" fill="#F4F7F9"/>
+<path d="M22 56H1178" stroke="#DCE6EA"/><path d="M22 56H1178" stroke="#008AA3" stroke-width="1.5" stroke-dasharray="3 20" opacity=".5"><animate attributeName="stroke-dashoffset" from="0" to="-184" dur="11s" repeatCount="indefinite"/></path>
+<circle r="3.2" fill="#008AA3"><animateMotion path="M24 56H1174" dur="8s" begin="0s" repeatCount="indefinite"/><animate attributeName="r" values="2.4;4.3;2.4" dur="1.7s" repeatCount="indefinite"/></circle>
+<text x="28" y="31" fill="#16222B" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" font-weight="800" letter-spacing="1">01 / AEGIS</text>
+<text x="29" y="48" fill="#59636E" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" letter-spacing=".7">VERIFIED COMPLAINT RESOLUTION PIPELINE</text>
+<rect x="390" y="17" width="145" height="29" rx="14.5" fill="#FFFFFF" stroke="#008AA3" stroke-opacity=".35"/>
+<circle cx="407" cy="31.5" r="4" fill="#008AA3"><animate attributeName="r" values="3;5;3" dur="2.1s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values=".48;1;.48" dur="2.1s" begin="0s" repeatCount="indefinite"/></circle>
+<text x="421" y="35.5" fill="#008AA3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" font-weight="700" letter-spacing=".65">COMPLETED<animate attributeName="opacity" values=".68;1;.68" dur="3.2s" begin="0s" repeatCount="indefinite"/></text>
+<rect x="390" y="45" width="0" height="1.5" fill="#008AA3" opacity=".56"><animate attributeName="width" values="0;145;145;0" keyTimes="0;.28;.78;1" dur="9s" begin="0s" repeatCount="indefinite"/></rect>
+<text x="1170" y="36" text-anchor="end" fill="#59636E" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" letter-spacing=".8">AGENTIC RAG / BANKING AI</text>
+</svg>

@@ -6,12 +6,17 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/hemkesh2021-dotcom?tab=repositories"><img src="./assets/explore-projects.svg" height="44" alt="Explore projects" /></a>
+  <a href="https://github.com/hemkesh2021-dotcom?tab=repositories"><img src="./assets/explore-projects-v2.svg" height="44" alt="Explore projects" /></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/hemkesh-r-461532322/"><img src="./assets/linkedin.svg" height="44" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/hemkesh-r-461532322/"><img src="./assets/linkedin-v2.svg" height="44" alt="LinkedIn" /></a>
 </p>
 
 ## `$ whoami`
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/whoami-dark.svg" />
+  <img src="./assets/sections/whoami-light.svg" width="100%" alt="Identity channel verified and online" />
+</picture>
 
 I am **Hemkesh**, a final-year B.Tech Computer Science Engineering student at **Dayananda Sagar University**, graduating in **2027**.
 
@@ -26,11 +31,21 @@ I build intelligent systems across generative AI, edge inference, computer visio
 
 ## `$ focus --current`
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/focus-dark.svg" />
+  <img src="./assets/sections/focus-light.svg" width="100%" alt="Active direction: generative AI, edge AI, and systems" />
+</picture>
+
 | Generative AI systems | Edge intelligence | Production-oriented software |
 |---|---|---|
 | Agent workflows, hybrid retrieval, grounded generation, evaluation, and human approval paths | TensorRT computer vision, local multimodal models, constrained-memory deployment, and real-time inference | Java and Python services, full-stack interfaces, PostgreSQL, containers, security, and observability |
 
 ## `$ stack --matrix`
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/stack-dark.svg" />
+  <img src="./assets/sections/stack-light.svg" width="100%" alt="Toolchain matrix loaded and ready" />
+</picture>
 
 | Area | Technologies |
 |---|---|
@@ -41,7 +56,19 @@ I build intelligent systems across generative AI, edge inference, computer visio
 
 ## `$ systems --featured`
 
-### 01 — [AEGIS](https://github.com/hemkesh2021-dotcom/AEGIS-complaint-resolution) `COMPLETED`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/systems-dark.svg" />
+  <img src="./assets/sections/systems-light.svg" width="100%" alt="Three featured systems active" />
+</picture>
+
+### 01 — [AEGIS](https://github.com/hemkesh2021-dotcom/AEGIS-complaint-resolution)
+
+<a href="https://github.com/hemkesh2021-dotcom/AEGIS-complaint-resolution">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/aegis-dark.svg" />
+    <img src="./assets/projects/aegis-light.svg" width="100%" alt="AEGIS completed — agentic RAG for banking complaint resolution" />
+  </picture>
+</a>
 
 **Agentic banking complaint resolution that verifies AI-generated responses before they reach customers.**
 
@@ -62,13 +89,25 @@ AEGIS uses a Spring Boot Java 21 orchestrator to run a seven-stage pipeline:
 
 ---
 
-### 02 — [SENTINEL](https://github.com/hemkesh2021-dotcom/Sentinel_Surveillance) `PROTOTYPE COMPLETE · IMPROVEMENTS ONGOING`
+### 02 — [SENTINEL](https://github.com/hemkesh2021-dotcom/Sentinel_Surveillance)
+
+<a href="https://github.com/hemkesh2021-dotcom/Sentinel_Surveillance">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/sentinel-dark.svg" />
+    <img src="./assets/projects/sentinel-light.svg" width="100%" alt="SENTINEL prototype complete with improvements ongoing" />
+  </picture>
+</a>
 
 **Self-hosted edge-AI surveillance for NVIDIA Jetson: detect, identify, understand, and alert locally in real time.**
 
 `RTSP camera → detection and tracking → face recognition → local VLM analysis → dashboard and alerts`
 
 #### Completed prototype
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/sentinel-prototype-dark.svg" />
+  <img src="./assets/sections/sentinel-prototype-light.svg" width="100%" alt="SENTINEL prototype stage complete" />
+</picture>
 
 - YOLOv8n TensorRT person detection with ByteTrack tracking
 - DeepFace, Facenet512, and YuNet face recognition with session Re-ID
@@ -81,12 +120,22 @@ AEGIS uses a Spring Boot Java 21 orchestrator to run a seven-stage pipeline:
 
 #### Deployment engineering
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/sentinel-deployment-dark.svg" />
+  <img src="./assets/sections/sentinel-deployment-light.svg" width="100%" alt="SENTINEL deployment engineering stage" />
+</picture>
+
 - Uses `GGML_CUDA_ENABLE_UNIFIED_MEMORY=1` so the VLM can run on Jetson's shared CPU/GPU memory pool
 - Starts headless, launches the VLM first, and then starts the surveillance engine and dashboard
 - Separates `llama-server`, the Python inference engine, and the Flask dashboard into three processes
 - Exchanges frames and state atomically to prevent torn dashboard reads
 
 #### Active improvement process
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/sentinel-improvement-dark.svg" />
+  <img src="./assets/sections/sentinel-improvement-light.svg" width="100%" alt="SENTINEL improvement process active" />
+</picture>
 
 - Reduce and enforce memory usage below the project cap
 - Improve runtime reliability, camera reconnection, and long-running observability
@@ -98,7 +147,12 @@ AEGIS uses a Spring Boot Java 21 orchestrator to run a seven-stage pipeline:
 
 ---
 
-### 03 — ARIA `WIP · ACTIVE BUILD`
+### 03 — ARIA
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/aria-dark.svg" />
+  <img src="./assets/projects/aria-light.svg" width="100%" alt="ARIA is an active local-first multimodal AI build" />
+</picture>
 
 **Local-first multimodal AI assistant combining private intelligence, automation, and edge surveillance.**
 
@@ -111,6 +165,11 @@ AEGIS uses a Spring Boot Java 21 orchestrator to run a seven-stage pipeline:
 
 ## `$ github --signal`
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/github-dark.svg" />
+  <img src="./assets/sections/github-light.svg" width="100%" alt="Public GitHub signal refreshed daily" />
+</picture>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-snapshot-dark.svg" />
@@ -118,21 +177,27 @@ AEGIS uses a Spring Boot Java 21 orchestrator to run a seven-stage pipeline:
   </picture>
   &nbsp;
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/1-repos-per-language.svg" />
-    <img height="200" src="./profile-summary-card-output/github/1-repos-per-language.svg" alt="Top languages across Hemkesh's public repositories" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-languages-dark.svg" />
+    <img height="200" src="./assets/profile-languages-light.svg" alt="Top languages across Hemkesh's public repositories" />
   </picture>
 </p>
 
 <p align="center">
-  <sub>Repository-hosted SVGs · refreshed daily by GitHub Actions</sub>
+  <sub>Repository-hosted animated SVGs · refreshed daily by GitHub Actions</sub>
 </p>
 
 ## `$ interests`
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/interests-dark.svg" />
+  <img src="./assets/sections/interests-light.svg" width="100%" alt="Research interests in local-first and edge AI" />
+</picture>
 
 `Local-first AI` · `Edge AI` · `Intelligent systems` · `Systems engineering` · `Computer vision` · `Robotics` · `Open-source engineering` · `Cloud-native development`
 
 ---
 
-<p align="center">
-  <code>&gt; build_status: curious / shipping / learning</code>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/animated-footer-dark.svg" />
+  <img src="./assets/animated-footer-light.svg" width="100%" alt="Build status: curious, shipping, and learning" />
+</picture>

@@ -1,66 +1,41 @@
-name: Refresh profile summary cards
+name: Refresh animated profile signals
 
 on:
   workflow_dispatch:
   schedule:
     - cron: '37 2 * * *'
   push:
-    branches:
-      - main
+    branches: [main]
     paths:
       - '.github/workflows/profile-summary-cards.yml'
+      - 'scripts/generate-profile-snapshot.mjs'
 
 concurrency:
-  group: profile-summary-cards
+  group: animated-profile-signals
   cancel-in-progress: true
 
 jobs:
   build:
-    name: Generate repository-hosted profile cards
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
-      - name: Check out profile repository
-        uses: actions/checkout@v4
-
-      - name: Generate profile card themes
-        uses: vn7n24fzkq/github-profile-summary-cards@09ba4dde3f9b05828cb99553561db3f4ff07703f
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: hemkesh2021-dotcom
-          BRANCH_NAME: main
-          AUTO_PUSH: false
-          NAME: Hemkesh
-
-      - name: Retain reliable light and dark language cards
-        shell: bash
-        run: |
-          find profile-summary-card-output -mindepth 1 -maxdepth 1 -type d \
-            ! -name github ! -name github_dark -exec rm -rf {} +
-          find profile-summary-card-output/github profile-summary-card-output/github_dark \
-            -type f ! -name '1-repos-per-language.svg' -delete
-          rm -f profile-summary-card-output/README.md
-
-      - name: Generate public portfolio snapshot
+      - uses: actions/checkout@v4
+      - name: Generate animated public profile signals
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_USER: hemkesh2021-dotcom
         run: node scripts/generate-profile-snapshot.mjs
-
-      - name: Commit refreshed profile assets
-        shell: bash
+      - name: Verify SVG animation output
+        run: |
+          for file in assets/profile-snapshot-{light,dark}.svg assets/profile-languages-{light,dark}.svg; do
+            grep -q '<animate' "$file"
+          done
+      - name: Commit refreshed animated assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A profile-summary-card-output \
-            assets/profile-snapshot-light.svg \
-            assets/profile-snapshot-dark.svg
-          if git diff --cached --quiet; then
-            echo "Profile assets are already current."
-            exit 0
-          fi
-          git commit -m "Refresh repository-hosted profile cards"
+          git add assets/profile-snapshot-{light,dark}.svg assets/profile-languages-{light,dark}.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Refresh animated public profile signals"
           git push origin HEAD:main
