@@ -163,11 +163,11 @@ AEGIS uses a Spring Boot Java 21 orchestrator to run a seven-stage pipeline:
 
 `Python` · `FastAPI` · `LLMs + RAG` · `NVIDIA Jetson` · `NVIDIA NIM` · `React / Next.js` · `Docker` · `PostgreSQL / pgvector`
 
-## `$ github --signal`
+<a id="github-signal"></a>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/github-dark.svg" />
-  <img src="./assets/sections/github-light.svg" width="100%" alt="Public GitHub signal refreshed daily" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/github-dark-v3.svg" />
+  <img src="./assets/headers/github-light-v3.svg" width="100%" alt="Section 05 — $ github --signal — public repository metrics" />
 </picture>
 
 <p align="center">
