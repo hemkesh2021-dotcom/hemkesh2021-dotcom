@@ -1,0 +1,48 @@
+name: Refresh profile summary cards
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 2 * * *'
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/profile-summary-cards.yml'
+
+concurrency:
+  group: profile-summary-cards
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Generate light and dark profile cards
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate light cards
+        uses: vn7n24fzkq/github-profile-summary-cards@09ba4dde3f9b05828cb99553561db3f4ff07703f
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: hemkesh2021-dotcom
+          BRANCH_NAME: main
+          THEME: github
+          AUTO_PUSH: false
+          NAME: Hemkesh
+
+      - name: Generate dark cards and publish both themes
+        uses: vn7n24fzkq/github-profile-summary-cards@09ba4dde3f9b05828cb99553561db3f4ff07703f
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: hemkesh2021-dotcom
+          BRANCH_NAME: main
+          THEME: github_dark
+          AUTO_PUSH: true
+          NAME: Hemkesh
