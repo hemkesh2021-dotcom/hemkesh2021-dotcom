@@ -1,5 +1,8 @@
 <div align="center">
-  <img src="./assets/profile-hero.svg" width="100%" alt="Hemkesh — Software Engineer and AI/ML Engineer" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg" />
+    <img src="./assets/profile-hero-light.svg" width="100%" alt="Hemkesh — Software Engineer and AI/ML Engineer" />
+  </picture>
 </div>
 
 <p align="center">
@@ -110,27 +113,18 @@ AEGIS uses a Spring Boot Java 21 orchestrator to run a seven-stage pipeline:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=hemkesh2021-dotcom&amp;show_icons=true&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=00B4D8&amp;text_color=8B949E&amp;icon_color=FF6B00" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=hemkesh2021-dotcom&amp;show_icons=true&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=0B2545&amp;text_color=59636E&amp;icon_color=C86432" alt="Hemkesh's GitHub statistics" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-snapshot-dark.svg" />
+    <img height="200" src="./assets/profile-snapshot-light.svg" alt="Hemkesh's public GitHub portfolio snapshot" />
   </picture>
+  &nbsp;
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=hemkesh2021-dotcom&amp;layout=compact&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=00B4D8&amp;text_color=8B949E" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hemkesh2021-dotcom&amp;layout=compact&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=0B2545&amp;text_color=59636E" alt="Hemkesh's most-used public repository languages" />
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/1-repos-per-language.svg" />
+    <img height="200" src="./profile-summary-card-output/github/1-repos-per-language.svg" alt="Top languages across Hemkesh's public repositories" />
   </picture>
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=hemkesh2021-dotcom&amp;hide_border=true&amp;background=00000000&amp;ring=00B4D8&amp;fire=FF6B00&amp;currStreakLabel=00B4D8&amp;sideNums=E6EDF3&amp;currStreakNum=E6EDF3&amp;sideLabels=8B949E&amp;dates=6E7781" />
-    <img src="https://streak-stats.demolab.com?user=hemkesh2021-dotcom&amp;hide_border=true&amp;background=00000000&amp;ring=0B2545&amp;fire=C86432&amp;currStreakLabel=0B2545&amp;sideNums=1F2328&amp;currStreakNum=1F2328&amp;sideLabels=59636E&amp;dates=6E7781" alt="Hemkesh's contribution streak" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=hemkesh2021-dotcom&amp;theme=onedark&amp;no-frame=true&amp;no-bg=true&amp;margin-w=8&amp;column=6" />
-    <img src="https://github-profile-trophy.vercel.app/?username=hemkesh2021-dotcom&amp;theme=flat&amp;no-frame=true&amp;no-bg=true&amp;margin-w=8&amp;column=6" alt="Hemkesh's GitHub trophies" />
-  </picture>
+  <sub>Repository-hosted SVGs · refreshed daily by GitHub Actions</sub>
 </p>
 
 ## `$ interests`
