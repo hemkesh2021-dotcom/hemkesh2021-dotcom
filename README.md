@@ -73,8 +73,8 @@
 </a>
 
 <picture>
-  <source media="(max-width: 680px)" srcset="./assets/beige-v6/aegis-details-mobile.svg" />
-  <img src="./assets/beige-v6/aegis-details-desktop.svg" width="100%" alt="AEGIS engineering details — classification, retrieval, drafting, grounding, security, audit, measured signals, and technology stack" />
+  <source media="(max-width: 680px)" srcset="./assets/beige-v6/aegis-engineering-details-mobile.svg" />
+  <img src="./assets/beige-v6/aegis-engineering-details-desktop.svg" width="100%" alt="AEGIS engineering details — classification, retrieval, drafting, grounding, security, audit, measured signals, and technology stack" />
 </picture>
 
 <a id="sentinel"></a>
