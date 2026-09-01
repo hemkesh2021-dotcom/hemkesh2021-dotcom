@@ -133,15 +133,19 @@
   <img src="./assets/beige-v6/divider-cyan-desktop.svg" width="100%" alt="Animated cyan and orange project boundary" />
 </picture>
 
+<details>
+<summary>
 <picture>
-  <source media="(max-width: 680px)" srcset="./assets/beige-v6/aria-mobile.svg" />
-  <img src="./assets/beige-v6/aria-desktop.svg" width="100%" alt="ARIA — active local-first multimodal AI assistant build" />
+  <source media="(max-width: 680px)" srcset="./assets/beige-v6/aria-lamp-mobile.svg" />
+  <img src="./assets/beige-v6/aria-lamp-desktop.svg" width="100%" alt="Click to illuminate ARIA and reveal the active project brief" />
 </picture>
+</summary>
 
 <picture>
-  <source media="(max-width: 680px)" srcset="./assets/beige-v6/aria-details-mobile.svg" />
-  <img src="./assets/beige-v6/aria-details-desktop.svg" width="100%" alt="ARIA active build details — private orchestration, persistent memory, unified local intelligence, edge deployment, and current stack" />
+  <source media="(max-width: 680px)" srcset="./assets/beige-v6/aria-illuminated-details-mobile.svg" />
+  <img src="./assets/beige-v6/aria-illuminated-details-desktop.svg" width="100%" alt="ARIA illuminated project brief — capabilities, architecture, stack, intended impact, active development status, and public repository coming soon" />
 </picture>
+</details>
 
 <a id="github-signal"></a>
 
