@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="76" viewBox="0 0 300 76" role="img" aria-labelledby="ttl-btn-LinkedIn">
+<title id="ttl-btn-LinkedIn">LinkedIn</title>
+<defs>
+<filter id="n-btn-LinkedIn" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="4" dy="5" stdDeviation="6" flood-color="#AEB5BF" flood-opacity=".95"/><feDropShadow dx="-3" dy="-3" stdDeviation="4" flood-color="#FFFFFF" flood-opacity=".95"/></filter>
+<linearGradient id="e-btn-LinkedIn" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#FFFFFF" stop-opacity="1"/><stop offset=".45" stop-color="#FFFFFF" stop-opacity=".25"/><stop offset="1" stop-color="#AEB5BF" stop-opacity=".55"/></linearGradient>
+<pattern id="d-btn-LinkedIn" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="1" fill="#8A919B" fill-opacity=".4"/></pattern>
+<clipPath id="c-btn-LinkedIn"><rect x="4" y="4" width="292" height="68" rx="34"/></clipPath></defs>
+<rect width="300" height="76" fill="#E7EAEE"/>
+<rect width="300" height="76" fill="url(#d-btn-LinkedIn)"/>
+<rect x="4" y="4" width="292" height="68" rx="34" fill="#EDEFF3" filter="url(#n-btn-LinkedIn)"/>
+<rect x="4.75" y="4.75" width="290.5" height="66.5" rx="34" fill="none" stroke="url(#e-btn-LinkedIn)" stroke-width="1.5"/>
+<g clip-path="url(#c-btn-LinkedIn)"><rect x="-110" y="4" width="110" height="68" fill="#14161A" opacity=".07"><animate attributeName="x" from="-110" to="300" dur="4s" repeatCount="indefinite"/></rect></g>
+<circle cx="34" cy="38" r="4.5" fill="#14161A"><animate attributeName="r" values="3.5;5.5;3.5" dur="2.4s" repeatCount="indefinite"/></circle>
+<circle cx="34" cy="38" r="4.5" fill="none" stroke="#14161A" stroke-opacity=".5"><animate attributeName="r" values="4.5;12" dur="2.4s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".5;0" dur="2.4s" repeatCount="indefinite"/></circle>
+<text x="54" y="43.76" fill="#14161A" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="500" letter-spacing="-.1">LinkedIn</text>
+<text x="272" y="44" fill="#14161A" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="17" font-weight="700" text-anchor="middle">↗</text>
+</svg>
