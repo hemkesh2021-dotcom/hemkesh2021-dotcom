@@ -154,15 +154,20 @@ def('stack', {
 });
 
 /* 03 path */
-def('path', {
+def('path-edgeverve', {
   accent: C.cyan, bg: C.beige,
-  title: 'Section 03 — Current path: AI/ML Model Evaluator and B.Tech Computer Science Engineering student',
+  title: 'Section 03 — Current path: AI/ML Model Evaluator, incoming Systems Engineer-EV at EdgeVerve Systems (Infosys Finacle), and B.Tech CSE student',
   build(p) {
     let y = head(p, p.pad, { kicker: 'SECTION 03 // CURRENT PATH', title: 'Current path', num: '03', badge: 'ACTIVE // 2026', big: 1 });
     y = cards(p, y + p.gap, {
       cols: 2, tfs: 16, items: [
         { tag: 'CURRENT ROLE', title: 'AI/ML Model Evaluator · Deccan AI', body: 'Freelance · Apr 2026—Present' },
         { tag: 'EDUCATION', title: 'B.Tech Computer Science Engineering', body: 'Dayananda Sagar University · 2027' }
+      ]
+    });
+    y = cards(p, y + p.gap, {
+      cols: 1, tfs: 16, items: [
+        { tag: 'PRE-JOINING TECHNICAL TRAINING', title: 'Incoming Systems Engineer–EV', body: 'EdgeVerve Systems (Infosys Finacle)' }
       ]
     });
     return y + p.pad;

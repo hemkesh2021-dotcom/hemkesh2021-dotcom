@@ -49,9 +49,9 @@
 </picture>
 
 <picture>
-  <source media="(max-width: 560px)" srcset="./assets/matrix-v8/path-mobile.svg" />
-  <source media="(max-width: 1000px)" srcset="./assets/matrix-v8/path-tablet.svg" />
-  <img src="./assets/matrix-v8/path-desktop.svg" width="100%" alt="Section 03 — Current path: AI/ML Model Evaluator and B.Tech Computer Science Engineering student" />
+  <source media="(max-width: 560px)" srcset="./assets/matrix-v8/path-edgeverve-mobile.svg" />
+  <source media="(max-width: 1000px)" srcset="./assets/matrix-v8/path-edgeverve-tablet.svg" />
+  <img src="./assets/matrix-v8/path-edgeverve-desktop.svg" width="100%" alt="Section 03 — Current path: AI/ML Model Evaluator, incoming Systems Engineer-EV at EdgeVerve Systems (Infosys Finacle), pre-joining technical training, and B.Tech CSE student" />
 </picture>
 
 <a id="systems-featured"></a>
