@@ -357,17 +357,17 @@ def('signal', {
   accent: C.cyan, bg: C.tan,
   title: 'Section 05 — GitHub signal: public repositories, stars, featured systems, and languages',
   build(p) {
-    let y = head(p, p.pad, { kicker: 'SECTION 05 // PUBLIC PORTFOLIO SNAPSHOT', title: 'GitHub signal', num: '05', badge: '8 REPOS', big: 1 });
+    let y = head(p, p.pad, { kicker: 'SECTION 05 // PUBLIC PORTFOLIO SNAPSHOT', title: 'GitHub signal', num: '05', badge: (typeof PROFILE_SIGNAL !== 'undefined' ? PROFILE_SIGNAL.repos : 8) + ' REPOS', big: 1 });
     y = stats(p, y + p.gap, {
       items: [
-        { value: '8', label: 'PUBLIC REPOS' },
-        { value: '7', label: 'PORTFOLIO REPOS' },
-        { value: '4', label: 'TOTAL STARS' },
+        { value: String(typeof PROFILE_SIGNAL !== 'undefined' ? PROFILE_SIGNAL.repos : 8), label: 'PUBLIC REPOS' },
+        { value: String(typeof PROFILE_SIGNAL !== 'undefined' ? PROFILE_SIGNAL.portfolio : 7), label: 'PORTFOLIO REPOS' },
+        { value: String(typeof PROFILE_SIGNAL !== 'undefined' ? PROFILE_SIGNAL.stars : 4), label: 'TOTAL STARS' },
         { value: '2', label: 'FEATURED SYSTEMS' }
       ]
     });
     y = bars(p, y + p.gap, {
-      label: 'TOP LANGUAGES BY REPOSITORY', items: [
+      label: 'TOP LANGUAGES BY REPOSITORY', items: typeof PROFILE_SIGNAL !== 'undefined' ? PROFILE_SIGNAL.languages : [
         { label: 'JavaScript', value: 3 }, { label: 'Java', value: 1 },
         { label: 'Jupyter Notebook', value: 1 }, { label: 'Python', value: 1 }, { label: 'TypeScript', value: 1 }
       ]

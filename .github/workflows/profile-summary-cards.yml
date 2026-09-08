@@ -3,12 +3,13 @@ name: Refresh animated profile signals
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 2 * * *'
+    - cron: '37 */6 * * *'
   push:
     branches: [main]
     paths:
       - '.github/workflows/profile-summary-cards.yml'
       - 'scripts/generate-profile-snapshot.mjs'
+      - 'tools/matrix-v8/**'
 
 concurrency:
   group: animated-profile-signals
@@ -25,17 +26,17 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_USER: hemkesh2021-dotcom
-        run: node scripts/generate-profile-snapshot.mjs
+        run: node tools/matrix-v8/refresh-signals.cjs
       - name: Verify SVG animation output
         run: |
-          for file in assets/profile-snapshot-{light,dark}.svg assets/profile-languages-{light,dark}.svg; do
+          for file in assets/matrix-v8/signal-{desktop,tablet,mobile}.svg; do
             grep -q '<animate' "$file"
           done
       - name: Commit refreshed animated assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/profile-snapshot-{light,dark}.svg assets/profile-languages-{light,dark}.svg
+          git add assets/matrix-v8/signal-{desktop,tablet,mobile}.svg
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Refresh animated public profile signals"
           git push origin HEAD:main
