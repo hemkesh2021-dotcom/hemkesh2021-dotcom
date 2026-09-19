@@ -1,3 +1,20 @@
+# Hemkesh
+
+Software engineering and AI/ML projects spanning web applications, banking complaint workflows and local computer vision. B.Tech CSE student at Dayananda Sagar University, graduating in 2027.
+
+## Selected engineering work
+
+| Project | What to inspect | Evidence and limitations |
+| --- | --- | --- |
+| [AEGIS](https://github.com/hemkesh2021-dotcom/AEGIS-complaint-resolution) | Spring Boot orchestration, classification, retrieval, draft verification and human review | [Evaluation report](https://github.com/hemkesh2021-dotcom/AEGIS-complaint-resolution/blob/main/eval/cfpb_report.md) and [tests](https://github.com/hemkesh2021-dotcom/AEGIS-complaint-resolution/tree/main/api/src/test). Portfolio prototype; privacy controls require further validation for real customer data. |
+| [SENTINEL](https://github.com/hemkesh2021-dotcom/Sentinel_Surveillance) | Local detection, tracking, face recognition and vision-language analysis | [Build notes](https://github.com/hemkesh2021-dotcom/Sentinel_Surveillance/blob/master/BUILD.md). Hardware-dependent prototype in active improvement; deployment performance needs device-specific measurement. |
+| [Carbon Footprint](https://github.com/hemkesh2021-dotcom/carbon-footprint-platform) | TypeScript calculator, browser data storage, habit tracking and dashboards | [Calculation logic](https://github.com/hemkesh2021-dotcom/carbon-footprint-platform/tree/main/src/lib/calculator) and [tests](https://github.com/hemkesh2021-dotcom/carbon-footprint-platform/tree/main/__tests__). Estimates depend on input and factor assumptions. |
+
+[LinkedIn](https://www.linkedin.com/in/hemkesh-r-461532322/) · [All repositories](https://github.com/hemkesh2021-dotcom?tab=repositories)
+
+<details>
+<summary>Visual profile and detailed project notes</summary>
+
 <div align="center">
 <picture>
   <source media="(max-width: 560px)" srcset="./assets/matrix-v8/hero-mobile.svg" />
@@ -195,3 +212,6 @@
   <source media="(max-width: 1000px)" srcset="./assets/matrix-v8/footer-tablet.svg" />
   <img src="./assets/matrix-v8/footer-desktop.svg" width="100%" alt="Build status: curious, shipping, and learning" />
 </picture>
+
+
+</details>
