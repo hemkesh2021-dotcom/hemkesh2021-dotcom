@@ -148,12 +148,24 @@
   <img src="./assets/matrix-v8/sentinel-improvement-details-desktop.svg" width="100%" alt="SENTINEL active improvement work — memory, reliability, security, PTZ behavior, and responsive clients" />
 </picture>
 
+<a id="sentinel-alpha"></a>
+
+## SENTINEL alpha release
+
+[**v2.0.0-alpha.2**](https://github.com/hemkesh2021-dotcom/Sentinel_Surveillance/releases/tag/v2.0.0-alpha.2) is an **experimental pre-release**, published on 21 October 2026 for the review checkpoint. It is not production-accepted.
+
+The alpha includes guarded validation runs of face recognition, local VLM chat, scene analysis, and the live dashboard on Jetson Orin Nano. Face recognition remains pending validation, and chat is not admitted for production use.
+
+[Release notes and limitations](https://github.com/hemkesh2021-dotcom/Sentinel_Surveillance/blob/v2.0.0-alpha.2/docs/RELEASE_NOTES_v2.0.0-alpha.2.md)
+
+**Beta may release in Q1 2027 (tentative).** This is not a confirmed release date.
+
 <a id="sentinel-v2"></a>
 
 <picture>
   <source media="(max-width: 560px)" srcset="./assets/matrix-v8/sentinel-v2-mobile.svg" />
   <source media="(max-width: 1000px)" srcset="./assets/matrix-v8/sentinel-v2-tablet.svg" />
-  <img src="./assets/matrix-v8/sentinel-v2-desktop.svg" width="100%" alt="SENTINEL stage 04 — version 2 beta in development, targeted for Q4 2026" />
+  <img src="./assets/matrix-v8/sentinel-v2-desktop.svg" width="100%" alt="SENTINEL stage 04 — version 2 beta in development, may release in Q1 2027 (tentative)" />
 </picture>
 
 <picture>

@@ -286,7 +286,7 @@ const STAGES = [
   ['sentinel-prototype', C.cyan, 'SENTINEL // STAGE 01', 'Completed prototype', 'PROTOTYPE // COMPLETE'],
   ['sentinel-deployment', C.orange, 'SENTINEL // STAGE 02', 'Deployment engineering', 'DEPLOYMENT // ENGINEERED'],
   ['sentinel-improvement', C.cyan, 'SENTINEL // STAGE 03', 'Active improvement process', 'IMPROVEMENT // ACTIVE'],
-  ['sentinel-v2', C.orange, 'SENTINEL // STAGE 04', 'Version 2 beta in development', 'V2 BETA // TARGET Q4 2026']
+  ['sentinel-v2', C.orange, 'SENTINEL // STAGE 04', 'Version 2 beta in development', 'Q1 2027 // TENTATIVE']
 ];
 STAGES.forEach(([id, accent, kicker, title, badge]) => {
   def(id, {
@@ -322,13 +322,13 @@ const DETAILS = [
       'Upgrade the responsive web experience and prepare Android / iOS client support'],
     'STATUS · PROTOTYPE COMPLETE // IMPROVEMENT PROCESS ACTIVE',
     'SENTINEL active improvement work — memory, reliability, security, PTZ behavior, and responsive clients'],
-  ['sentinel-v2-details', C.orange, 'STAGE 04 // V2 BETA ROADMAP', 'A ground-up rebuild of the v1 prototype. Public beta targeted for Q4 2026.',
+  ['sentinel-v2-details', C.orange, 'STAGE 04 // V2 BETA ROADMAP', 'A ground-up rebuild of the v1 prototype. Beta may release in Q1 2027 (tentative).',
     ['Evidence-based threat engine with calibrated uncertainty scoring',
       'Resource-bounded scheduler keeps perception alive under a memory cap',
       'Published Orin Nano 8 GB benchmark with a reproducible replay harness',
       'PTZ active perception physical centring and full-res crops',
       'Hardened deployment auth, secrets, and durable alert delivery'],
-    'STATUS · V2 IN DEVELOPMENT // PUBLIC BETA TARGET Q4 2026',
+    'STATUS · V2 IN DEVELOPMENT // BETA Q1 2027 (TENTATIVE)',
     'SENTINEL version 2 beta roadmap — evidence-based threat engine, resource-bounded scheduler, published Orin Nano benchmark, PTZ active perception, and hardened deployment']
 ];
 DETAILS.forEach(([id, accent, kicker, sub, items, metaText, title]) => {
