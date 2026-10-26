@@ -1,0 +1,28 @@
+name: Check Sentinel alpha panel
+on:
+  pull_request:
+    paths:
+      - 'README.md'
+      - 'assets/matrix-v8/sentinel-alpha-*.svg'
+      - 'tools/matrix-v8/**'
+      - '.github/workflows/check-alpha-panel.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node tools/matrix-v8/check-alpha.cjs
+      - name: Parse SVG XML
+        run: |
+          python3 - <<'PY'
+          import glob
+          import xml.etree.ElementTree as ET
+          for file in glob.glob('assets/matrix-v8/sentinel-alpha-*.svg'):
+              ET.parse(file)
+          PY

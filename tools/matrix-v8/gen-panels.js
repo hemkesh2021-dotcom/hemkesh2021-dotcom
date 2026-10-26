@@ -352,6 +352,32 @@ DETAILS.forEach(([id, accent, kicker, sub, items, metaText, title]) => {
   });
 });
 
+/* Alpha checkpoint: reuse the matrix components, with the existing Python blue
+   from the profile language palette as a restrained, distinct release accent. */
+def('sentinel-alpha', {
+  accent: '#3572A5',
+  title: 'SENTINEL alpha release — v2.0.0-alpha.2 experimental pre-release; not production-accepted',
+  build(p) {
+    let y = stage(p, p.pad, {
+      kicker: 'SENTINEL // REVIEW CHECKPOINT', title: 'Alpha release · v2.0.0-alpha.2',
+      badge: 'EXPERIMENTAL // PRE-RELEASE'
+    });
+    y = meta(p, y + p.gap, {
+      text: 'Published 21 October 2026 for the review checkpoint. Not production-accepted.'
+    });
+    y = cards(p, y + p.gap, {
+      cols: 2, tfs: 17, items: [
+        { tag: 'GUARDED VALIDATION', title: 'Jetson Orin Nano', body: 'Guarded validation runs of face recognition, local VLM chat, scene analysis, and the live dashboard.' },
+        { tag: 'LIMITATIONS', title: 'Validation remains open', body: 'Face recognition remains pending validation. Chat is not admitted for production use.' }
+      ]
+    });
+    y = meta(p, y + p.gap, {
+      text: 'Beta may release in Q1 2027 (tentative).'
+    });
+    return y + p.pad;
+  }
+});
+
 /* 05 signal */
 def('signal', {
   accent: C.cyan, bg: C.tan,
@@ -463,11 +489,11 @@ function buildButton(label, accent) {
 }
 
 /* ---------- runner ---------- */
-async function buildAll(dir) {
+async function buildAll(dir, only = []) {
   FONT_CSS = '';
 
   const written = [];
-  for (const spec of PANELS) {
+  for (const spec of PANELS.filter(spec => !only.length || only.includes(spec.id))) {
     for (const mode of ['d', 't', 'm']) {
       const p = P(mode, spec);
       const h = spec.build(p);
@@ -478,7 +504,7 @@ async function buildAll(dir) {
       written.push(`${spec.id}-${suffix} ${p.W}x${Math.round(h)}`);
     }
   }
-  for (const [id, label, accent] of BUTTONS) {
+  for (const [id, label, accent] of BUTTONS.filter(([id]) => !only.length || only.includes(id))) {
     await saveFile(`${dir}/${id}.svg`, buildButton(label, accent));
     written.push(id);
   }
